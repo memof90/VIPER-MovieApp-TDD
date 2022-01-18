@@ -23,6 +23,7 @@
 		8D915E4127974695003EB945 /* UICollectionViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E4027974695003EB945 /* UICollectionViewExtensions.swift */; };
 		8D915E43279747A9003EB945 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E42279747A9003EB945 /* UIImageViewExtension.swift */; };
 		8D915E452797497C003EB945 /* CollectionViewHorizontalCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E442797497C003EB945 /* CollectionViewHorizontalCustom.swift */; };
+		8D915E4827975AD2003EB945 /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E4727975AD2003EB945 /* LoadingScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		8D915E4027974695003EB945 /* UICollectionViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtensions.swift; sourceTree = "<group>"; };
 		8D915E42279747A9003EB945 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		8D915E442797497C003EB945 /* CollectionViewHorizontalCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewHorizontalCustom.swift; sourceTree = "<group>"; };
+		8D915E4727975AD2003EB945 /* LoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				8D915E442797497C003EB945 /* CollectionViewHorizontalCustom.swift */,
+				8D915E4727975AD2003EB945 /* LoadingScreen.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 				8D915E162797379A003EB945 /* AppDelegate.swift in Sources */,
 				8D915E3E279742A0003EB945 /* Reusable.swift in Sources */,
 				8D915E3327973CA6003EB945 /* HTTPMethod.swift in Sources */,
+				8D915E4827975AD2003EB945 /* LoadingScreen.swift in Sources */,
 				8D915E202797379A003EB945 /* MovieApp.xcdatamodeld in Sources */,
 				8D915E2F27973A5F003EB945 /* Path.swift in Sources */,
 				8D915E452797497C003EB945 /* CollectionViewHorizontalCustom.swift in Sources */,
