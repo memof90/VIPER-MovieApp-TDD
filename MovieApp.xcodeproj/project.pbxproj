@@ -22,6 +22,7 @@
 		8D915E3E279742A0003EB945 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E3D279742A0003EB945 /* Reusable.swift */; };
 		8D915E4127974695003EB945 /* UICollectionViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E4027974695003EB945 /* UICollectionViewExtensions.swift */; };
 		8D915E43279747A9003EB945 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E42279747A9003EB945 /* UIImageViewExtension.swift */; };
+		8D915E452797497C003EB945 /* CollectionViewHorizontalCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E442797497C003EB945 /* CollectionViewHorizontalCustom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		8D915E3D279742A0003EB945 /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
 		8D915E4027974695003EB945 /* UICollectionViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtensions.swift; sourceTree = "<group>"; };
 		8D915E42279747A9003EB945 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		8D915E442797497C003EB945 /* CollectionViewHorizontalCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewHorizontalCustom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +76,9 @@
 		8D915E142797379A003EB945 /* MovieApp */ = {
 			isa = PBXGroup;
 			children = (
-				8D915E3927974117003EB945 /* Modules */,
 				8D915E382797410F003EB945 /* Extensions */,
 				8D915E3727974108003EB945 /* Common */,
+				8D915E3927974117003EB945 /* Modules */,
 				8D915E2C27973A02003EB945 /* Services */,
 				8D915E152797379A003EB945 /* AppDelegate.swift */,
 				8D915E172797379A003EB945 /* SceneDelegate.swift */,
@@ -104,6 +106,7 @@
 		8D915E3727974108003EB945 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				8D915E442797497C003EB945 /* CollectionViewHorizontalCustom.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				8D915E3327973CA6003EB945 /* HTTPMethod.swift in Sources */,
 				8D915E202797379A003EB945 /* MovieApp.xcdatamodeld in Sources */,
 				8D915E2F27973A5F003EB945 /* Path.swift in Sources */,
+				8D915E452797497C003EB945 /* CollectionViewHorizontalCustom.swift in Sources */,
 				8D915E182797379A003EB945 /* SceneDelegate.swift in Sources */,
 				8D915E3127973B80003EB945 /* CustomError.swift in Sources */,
 			);
