@@ -16,6 +16,7 @@
 		8D915E252797379E003EB945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D915E232797379E003EB945 /* LaunchScreen.storyboard */; };
 		8D915E2F27973A5F003EB945 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E2E27973A5F003EB945 /* Path.swift */; };
 		8D915E3127973B80003EB945 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E3027973B80003EB945 /* CustomError.swift */; };
+		8D915E3327973CA6003EB945 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E3227973CA6003EB945 /* HTTPMethod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		8D915E262797379E003EB945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D915E2E27973A5F003EB945 /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
 		8D915E3027973B80003EB945 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		8D915E3227973CA6003EB945 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			children = (
 				8D915E2E27973A5F003EB945 /* Path.swift */,
 				8D915E3027973B80003EB945 /* CustomError.swift */,
+				8D915E3227973CA6003EB945 /* HTTPMethod.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			files = (
 				8D915E1A2797379A003EB945 /* ViewController.swift in Sources */,
 				8D915E162797379A003EB945 /* AppDelegate.swift in Sources */,
+				8D915E3327973CA6003EB945 /* HTTPMethod.swift in Sources */,
 				8D915E202797379A003EB945 /* MovieApp.xcdatamodeld in Sources */,
 				8D915E2F27973A5F003EB945 /* Path.swift in Sources */,
 				8D915E182797379A003EB945 /* SceneDelegate.swift in Sources */,
