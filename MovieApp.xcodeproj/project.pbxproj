@@ -20,6 +20,8 @@
 		8D915E3627973D45003EB945 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E3527973D45003EB945 /* BaseService.swift */; };
 		8D915E3B27974157003EB945 /* FileManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E3A27974157003EB945 /* FileManagerExtension.swift */; };
 		8D915E3E279742A0003EB945 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E3D279742A0003EB945 /* Reusable.swift */; };
+		8D915E4127974695003EB945 /* UICollectionViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E4027974695003EB945 /* UICollectionViewExtensions.swift */; };
+		8D915E43279747A9003EB945 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E42279747A9003EB945 /* UIImageViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		8D915E3527973D45003EB945 /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
 		8D915E3A27974157003EB945 /* FileManagerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerExtension.swift; sourceTree = "<group>"; };
 		8D915E3D279742A0003EB945 /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		8D915E4027974695003EB945 /* UICollectionViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtensions.swift; sourceTree = "<group>"; };
+		8D915E42279747A9003EB945 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 			children = (
 				8D915E3A27974157003EB945 /* FileManagerExtension.swift */,
 				8D915E3D279742A0003EB945 /* Reusable.swift */,
+				8D915E4027974695003EB945 /* UICollectionViewExtensions.swift */,
+				8D915E42279747A9003EB945 /* UIImageViewExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -192,6 +198,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D915E3627973D45003EB945 /* BaseService.swift in Sources */,
+				8D915E4127974695003EB945 /* UICollectionViewExtensions.swift in Sources */,
+				8D915E43279747A9003EB945 /* UIImageViewExtension.swift in Sources */,
 				8D915E3B27974157003EB945 /* FileManagerExtension.swift in Sources */,
 				8D915E1A2797379A003EB945 /* ViewController.swift in Sources */,
 				8D915E162797379A003EB945 /* AppDelegate.swift in Sources */,
