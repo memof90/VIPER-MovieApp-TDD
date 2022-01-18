@@ -7,7 +7,7 @@
 
 import Foundation
 
-// MARK: - Extension to Read Files json to stubs 
+// MARK: - Extension to Read Files json to stubs
 
 extension FileManager {
     

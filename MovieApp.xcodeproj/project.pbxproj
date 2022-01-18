@@ -19,6 +19,7 @@
 		8D915E3327973CA6003EB945 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E3227973CA6003EB945 /* HTTPMethod.swift */; };
 		8D915E3627973D45003EB945 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E3527973D45003EB945 /* BaseService.swift */; };
 		8D915E3B27974157003EB945 /* FileManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E3A27974157003EB945 /* FileManagerExtension.swift */; };
+		8D915E3E279742A0003EB945 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E3D279742A0003EB945 /* Reusable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		8D915E3227973CA6003EB945 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		8D915E3527973D45003EB945 /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
 		8D915E3A27974157003EB945 /* FileManagerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerExtension.swift; sourceTree = "<group>"; };
+		8D915E3D279742A0003EB945 /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				8D915E3A27974157003EB945 /* FileManagerExtension.swift */,
+				8D915E3D279742A0003EB945 /* Reusable.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				8D915E3B27974157003EB945 /* FileManagerExtension.swift in Sources */,
 				8D915E1A2797379A003EB945 /* ViewController.swift in Sources */,
 				8D915E162797379A003EB945 /* AppDelegate.swift in Sources */,
+				8D915E3E279742A0003EB945 /* Reusable.swift in Sources */,
 				8D915E3327973CA6003EB945 /* HTTPMethod.swift in Sources */,
 				8D915E202797379A003EB945 /* MovieApp.xcdatamodeld in Sources */,
 				8D915E2F27973A5F003EB945 /* Path.swift in Sources */,
