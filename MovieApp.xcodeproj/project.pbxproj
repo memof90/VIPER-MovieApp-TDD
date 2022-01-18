@@ -17,6 +17,7 @@
 		8D915E2F27973A5F003EB945 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E2E27973A5F003EB945 /* Path.swift */; };
 		8D915E3127973B80003EB945 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E3027973B80003EB945 /* CustomError.swift */; };
 		8D915E3327973CA6003EB945 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E3227973CA6003EB945 /* HTTPMethod.swift */; };
+		8D915E3627973D45003EB945 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E3527973D45003EB945 /* BaseService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		8D915E2E27973A5F003EB945 /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
 		8D915E3027973B80003EB945 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
 		8D915E3227973CA6003EB945 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		8D915E3527973D45003EB945 /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				8D915E2E27973A5F003EB945 /* Path.swift */,
 				8D915E3027973B80003EB945 /* CustomError.swift */,
 				8D915E3227973CA6003EB945 /* HTTPMethod.swift */,
+				8D915E3527973D45003EB945 /* BaseService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D915E3627973D45003EB945 /* BaseService.swift in Sources */,
 				8D915E1A2797379A003EB945 /* ViewController.swift in Sources */,
 				8D915E162797379A003EB945 /* AppDelegate.swift in Sources */,
 				8D915E3327973CA6003EB945 /* HTTPMethod.swift in Sources */,
