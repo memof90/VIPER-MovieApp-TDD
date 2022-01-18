@@ -17,6 +17,7 @@ final class MoviesViewController: UIViewController, AnyMoviesViewProtocol {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .green
     }
     
     
