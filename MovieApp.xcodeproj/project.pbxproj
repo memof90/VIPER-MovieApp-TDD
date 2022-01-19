@@ -34,6 +34,8 @@
 		8D915E6827976269003EB945 /* GetMoviesInteractorProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E6727976269003EB945 /* GetMoviesInteractorProtocols.swift */; };
 		8D915E6A279763A6003EB945 /* MoviesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E69279763A6003EB945 /* MoviesRepository.swift */; };
 		8D915E6C279763B3003EB945 /* MoviesRepositoryProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E6B279763B3003EB945 /* MoviesRepositoryProtocols.swift */; };
+		8D915E6E27979059003EB945 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E6D27979059003EB945 /* Movie.swift */; };
+		8D915E70279790F2003EB945 /* PopularMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E6F279790F2003EB945 /* PopularMovies.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +68,8 @@
 		8D915E6727976269003EB945 /* GetMoviesInteractorProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMoviesInteractorProtocols.swift; sourceTree = "<group>"; };
 		8D915E69279763A6003EB945 /* MoviesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesRepository.swift; sourceTree = "<group>"; };
 		8D915E6B279763B3003EB945 /* MoviesRepositoryProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesRepositoryProtocols.swift; sourceTree = "<group>"; };
+		8D915E6D27979059003EB945 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		8D915E6F279790F2003EB945 /* PopularMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMovies.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +181,8 @@
 		8D915E4B27975CD9003EB945 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				8D915E6D27979059003EB945 /* Movie.swift */,
+				8D915E6F279790F2003EB945 /* PopularMovies.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -301,6 +307,8 @@
 				8D915E5C27975F6A003EB945 /* MoviesPresenter.swift in Sources */,
 				8D915E6A279763A6003EB945 /* MoviesRepository.swift in Sources */,
 				8D915E4127974695003EB945 /* UICollectionViewExtensions.swift in Sources */,
+				8D915E70279790F2003EB945 /* PopularMovies.swift in Sources */,
+				8D915E6E27979059003EB945 /* Movie.swift in Sources */,
 				8D915E43279747A9003EB945 /* UIImageViewExtension.swift in Sources */,
 				8D915E3B27974157003EB945 /* FileManagerExtension.swift in Sources */,
 				8D915E1A2797379A003EB945 /* ViewController.swift in Sources */,
