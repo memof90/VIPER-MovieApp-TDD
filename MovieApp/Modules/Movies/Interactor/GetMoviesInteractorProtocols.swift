@@ -7,13 +7,18 @@
 
 import Foundation
 
+typealias MoviesCompletion = (Result<[Movie], CustomError>) -> Void
 
 protocol AnyGetMoviesInteractorInputProtocol {
-    var presenter: AnyGetMoviesInteractorOutputProtocol? { get set }
     var repository: AnyMoviesRepositoryInputProtocol? { get set}
+    var presenter: AnyGetMoviesInteractorOutputProtocol? { get set }
+    
+    
+    func execute()
 }
 
 
 protocol AnyGetMoviesInteractorOutputProtocol: AnyObject {
-    
+    func didRetrieveMovies(_ movies: [Movie])
+    func didGetError(_ error: CustomError)
 }
