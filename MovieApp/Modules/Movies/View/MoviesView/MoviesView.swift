@@ -17,7 +17,7 @@ final class MoviesView: UIView {
         }
     }
     
-    weak var delegate: MoviesViewDelegate?
+    weak var delegate: AnyMoviesViewDelegate?
     
 //    MARK: - Refresh Control to realod tableView and CollectionView
     
@@ -40,8 +40,24 @@ final class MoviesView: UIView {
         return collectionView
     }()
     
-//    MARK: DataSource
+//    MARK: DataSource to CollectionViewProtocols
+    private lazy var datasource: MoviesDataSource = {
+        let dataSource = MoviesDataSource()
+        collectionView.dataSource = dataSource
+        collectionView.delegate = dataSource
+        return dataSource
+    }()
     
+//    MARK: - Initializaizers
+    init() {
+        super.init(frame: CGRect.zero)
+        backgroundColor = .black
+        collectionViewConstraints()
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
 //    MARK: - Functions
     
@@ -61,9 +77,10 @@ final class MoviesView: UIView {
         collectionView.reloadData()
     }
     
-//     MARK: - MARK: - Pass data into MovieViewController
-    func configure(movies: [Movie], delegate: MoviesViewDelegate) {
-        
+//     MARK: - MARK: - Pass data into MovieViewController and reload Collection View Manage collectionView
+    func configure(movies: [Movie], delegate: AnyMoviesViewDelegate) {
+        datasource.configure(movies: movies, delegate: delegate)
+        refreshData()
     }
     
 //    MARK: - Put error into screen of the user

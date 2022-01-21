@@ -33,6 +33,15 @@ final class MoviesViewCell: UICollectionViewCell {
     }
     
 // MARK: - Pass data into cell
+    func configure(data: Movie) {
+//        Save the image to api
+        guard let posterPath = data.posterPath else {return}
+//        Load image to api and show to user
+        let completeUrl = String(format: Path.basePathFormat, Path.baseImageUrl, posterPath)
+//        load image to user
+        posterImageView.downloadImage(from: completeUrl)
+ 
+    }
     
     
 //    MARK: - Image Layout Constrainst
