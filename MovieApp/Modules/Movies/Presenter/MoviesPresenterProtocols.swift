@@ -12,8 +12,13 @@ protocol AnyMoviesPresenterInputProtocol {
     var view: AnyMoviesPresenterOutputProtocol? { get set }
     var router: AnyMoviesRouterProtocol? { get set }
     var getMoviesInteractor: AnyGetMoviesInteractorInputProtocol? { get set }
+    var movies: [Movie] { get set }
+    
+    func getMovies()
 }
 
 protocol AnyMoviesPresenterOutputProtocol: AnyObject {
-    
+   func didRetrieveMovies()
+    func didGetError(_ message: String)
+    func endRefresh()
 }

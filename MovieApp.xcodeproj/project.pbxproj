@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D7990242799F58500CE1725 /* PopularMoviesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7990232799F58500CE1725 /* PopularMoviesService.swift */; };
+		8D7990262799F59800CE1725 /* PopularMoviesServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7990252799F59800CE1725 /* PopularMoviesServiceProtocol.swift */; };
 		8D915E162797379A003EB945 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E152797379A003EB945 /* AppDelegate.swift */; };
 		8D915E182797379A003EB945 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E172797379A003EB945 /* SceneDelegate.swift */; };
 		8D915E1A2797379A003EB945 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D915E192797379A003EB945 /* ViewController.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D7990232799F58500CE1725 /* PopularMoviesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMoviesService.swift; sourceTree = "<group>"; };
+		8D7990252799F59800CE1725 /* PopularMoviesServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMoviesServiceProtocol.swift; sourceTree = "<group>"; };
 		8D915E122797379A003EB945 /* MovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D915E152797379A003EB945 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D915E172797379A003EB945 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D7990222799F55800CE1725 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				8D7990232799F58500CE1725 /* PopularMoviesService.swift */,
+				8D7990252799F59800CE1725 /* PopularMoviesServiceProtocol.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
 		8D915E092797379A003EB945 = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +212,7 @@
 		8D915E4D27975CE8003EB945 /* Respository */ = {
 			isa = PBXGroup;
 			children = (
+				8D7990222799F55800CE1725 /* Remote */,
 				8D915E69279763A6003EB945 /* MoviesRepository.swift */,
 				8D915E6B279763B3003EB945 /* MoviesRepositoryProtocols.swift */,
 			);
@@ -309,7 +323,9 @@
 				8D915E4127974695003EB945 /* UICollectionViewExtensions.swift in Sources */,
 				8D915E70279790F2003EB945 /* PopularMovies.swift in Sources */,
 				8D915E6E27979059003EB945 /* Movie.swift in Sources */,
+				8D7990262799F59800CE1725 /* PopularMoviesServiceProtocol.swift in Sources */,
 				8D915E43279747A9003EB945 /* UIImageViewExtension.swift in Sources */,
+				8D7990242799F58500CE1725 /* PopularMoviesService.swift in Sources */,
 				8D915E3B27974157003EB945 /* FileManagerExtension.swift in Sources */,
 				8D915E1A2797379A003EB945 /* ViewController.swift in Sources */,
 				8D915E162797379A003EB945 /* AppDelegate.swift in Sources */,
