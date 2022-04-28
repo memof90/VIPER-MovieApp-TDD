@@ -12,6 +12,8 @@ final class MoviesPresenter: AnyMoviesPresenterInputProtocol {
     
     var movies: [Movie] = []
     
+    var moviesFiltered: [Movie] = []
+    
     weak var view: AnyMoviesPresenterOutputProtocol?
     
     var router: AnyMoviesRouterProtocol?

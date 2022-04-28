@@ -13,6 +13,7 @@ protocol AnyMoviesPresenterInputProtocol {
     var router: AnyMoviesRouterProtocol? { get set }
     var getMoviesInteractor: AnyGetMoviesInteractorInputProtocol? { get set }
     var movies: [Movie] { get set }
+    var moviesFiltered: [Movie] { get set }
     
     func getMovies()
 }

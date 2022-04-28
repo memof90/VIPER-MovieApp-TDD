@@ -10,6 +10,7 @@ import UIKit
 
 
 final class MoviesView: UIView {
+    
     private enum Constants {
         enum CollectionView {
             static let margin: UIEdgeInsets = .init(top: 4, left: 4, bottom: -4, right: -4)
