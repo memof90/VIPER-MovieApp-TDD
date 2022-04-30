@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+typealias DetailMovieCompletion = (Result<DetailMovie, CustomError>) -> Void
+
+protocol AnyDetailMoviesServiceProtocol {
+    
+    func getDetailMovie(idMovie: Int, completion: @escaping DetailMovieCompletion)
+}
