@@ -7,10 +7,24 @@
 
 import UIKit
 
-final class DetailMovieViewController: UIViewController {
+final class DetailMovieViewController: UIViewController, AnyDetailMovieViewProtocol {
+    
+    var presenter: AnyDetailMoviePresenterInputProtocol?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+}
+
+extension DetailMovieViewController: DetailMoviePresenterOutputProtocol {
+    
+    func didRetrieveDetailMovie() {
+        
+    }
+    
+    func didGetError(_ error: CustomError) {
+        
     }
     
 }

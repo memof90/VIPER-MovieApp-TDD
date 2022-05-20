@@ -15,6 +15,7 @@ protocol AnyDetailMoviePresenterInputProtocol {
     var getDetailMovieInteractor: AnyDetailMovieInteractorInputProtocol? { get set }
     
 //     MARK: - ROUTER
+    var router: AnyDetailMovieRouterProtocol? { get set }
     
     func getDetailMovie()
 }

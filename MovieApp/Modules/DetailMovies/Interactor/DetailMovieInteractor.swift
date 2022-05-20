@@ -11,7 +11,7 @@ final class GetDeatilMovieInteractor: AnyDetailMovieInteractorInputProtocol {
     
     var repository: AnyDetailMovieRespositoryInputProtocol?
     
-    var presenter: AnyGetDetailMovieInteractorOutputProtocol?
+    weak var presenter: AnyGetDetailMovieInteractorOutputProtocol?
     
     func execute(idMovie: Int) {
         repository?.getDetailMovie(idMovie: idMovie)

@@ -13,9 +13,11 @@ final class DetailMoviePresenter: AnyDetailMoviePresenterInputProtocol {
     
     var detailMovie: DetailMovie?
     
-    var view: DetailMoviePresenterOutputProtocol?
+    weak var view: DetailMoviePresenterOutputProtocol?
     
     var getDetailMovieInteractor: AnyDetailMovieInteractorInputProtocol?
+    
+    var router: AnyDetailMovieRouterProtocol?
     
     func getDetailMovie() {
         guard let movie = movie else {

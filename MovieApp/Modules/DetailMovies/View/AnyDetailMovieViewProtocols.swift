@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol AnyDetailMovieViewProtocol {
+    var presenter: AnyDetailMoviePresenterInputProtocol? { get set }
+}
