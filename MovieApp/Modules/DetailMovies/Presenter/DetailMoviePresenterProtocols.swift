@@ -6,3 +6,20 @@
 //
 
 import Foundation
+
+protocol AnyDetailMoviePresenterInputProtocol {
+    
+    var movie: Movie? { get set }
+    var detailMovie: DetailMovie? { get set }
+    var view: DetailMoviePresenterOutputProtocol? { get set }
+    var getDetailMovieInteractor: AnyDetailMovieInteractorInputProtocol? { get set }
+    
+//     MARK: - ROUTER
+    
+    func getDetailMovie()
+}
+
+protocol DetailMoviePresenterOutputProtocol: AnyObject {
+    func didRetrieveDetailMovie()
+    func didGetError(_ error: CustomError)
+}
