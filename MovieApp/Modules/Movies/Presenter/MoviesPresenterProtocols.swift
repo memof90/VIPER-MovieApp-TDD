@@ -5,7 +5,7 @@
 //  Created by Memo Figueredo on 18/1/22.
 //
 
-import Foundation
+import UIKit
 
 
 protocol AnyMoviesPresenterInputProtocol {
@@ -16,6 +16,7 @@ protocol AnyMoviesPresenterInputProtocol {
     var moviesFiltered: [Movie] { get set }
     
     func getMovies()
+    func getToDetail(movie: Movie, view: UINavigationController?)
 }
 
 protocol AnyMoviesPresenterOutputProtocol: AnyObject {

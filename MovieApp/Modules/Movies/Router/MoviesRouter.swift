@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 
 final class MoviesRouter: AnyMoviesRouterProtocol {
@@ -38,5 +39,8 @@ final class MoviesRouter: AnyMoviesRouterProtocol {
         return view as! MoviesViewController
     }
     
-    
+    func presentDetailMovie(movie: Movie, navController: UINavigationController?) {
+        let detailMovieController: DetailMovieViewController = DetailMovieRouter.createModule(movie: movie)
+        navController?.pushViewController(detailMovieController, animated: true)
+    }
 }

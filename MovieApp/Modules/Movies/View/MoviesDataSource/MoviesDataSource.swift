@@ -57,6 +57,7 @@ extension MoviesDataSource: UICollectionViewDataSource {
 // MARK: - UICollectionViewDelegate
 extension MoviesDataSource: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
+        let movie = movies[indexPath.row]
+        delegate?.showDetail(of: movie)
     }
 }
