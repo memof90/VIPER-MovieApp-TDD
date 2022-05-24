@@ -142,7 +142,7 @@ extension MoviesViewController: AnyMoviesPresenterOutputProtocol {
 // MARK: - Delegate to show View detail
 extension MoviesViewController: AnyMoviesViewDelegate {
     func showDetail(of movie: Movie) {
-        
+        presenter?.getToDetail(movie: movie, view: self.navigationController)
     }
     
     func refresh() {

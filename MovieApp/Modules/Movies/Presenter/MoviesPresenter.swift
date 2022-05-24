@@ -5,11 +5,11 @@
 //  Created by Memo Figueredo on 18/1/22.
 //
 
-import Foundation
+import UIKit
 
 
 final class MoviesPresenter: AnyMoviesPresenterInputProtocol {
-    
+
     var movies: [Movie] = []
     
     var moviesFiltered: [Movie] = []
@@ -24,7 +24,9 @@ final class MoviesPresenter: AnyMoviesPresenterInputProtocol {
         getMoviesInteractor?.execute()
     }
     
-    
+    func getToDetail(movie: Movie, view: UINavigationController?) {
+        router?.presentDetailMovie(movie: movie, navController: view)
+    }
 }
 
 extension MoviesPresenter: AnyGetMoviesInteractorOutputProtocol {

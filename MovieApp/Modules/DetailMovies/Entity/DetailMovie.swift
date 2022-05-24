@@ -16,7 +16,6 @@ struct DetailMovie: Codable {
     let status: String
     
     enum CodingKeys: String, CodingKey {
-        
         case title = "original_title"
         case summary = "overview"
         case image = "backdrop_path"
