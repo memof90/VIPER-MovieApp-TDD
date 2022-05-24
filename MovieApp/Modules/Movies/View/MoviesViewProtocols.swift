@@ -11,6 +11,7 @@ protocol AnyMoviesViewProtocol: AnyObject {
     var presenter: AnyMoviesPresenterInputProtocol? { get set }
 }
 
-protocol MoviesViewDelegate: AnyObject {
-    
+protocol AnyMoviesViewDelegate: AnyObject {
+    func showDetail(of movie: Movie)
+    func refresh()
 }

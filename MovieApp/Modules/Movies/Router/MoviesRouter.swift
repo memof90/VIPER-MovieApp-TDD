@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 
 final class MoviesRouter: AnyMoviesRouterProtocol {
@@ -22,6 +23,8 @@ final class MoviesRouter: AnyMoviesRouterProtocol {
         var interactor: InteractorProtocols = GetMoviesInteractor()
         var repository: AnyMoviesRepositoryInputProtocol = MoviesRepository()
         let router: AnyMoviesRouterProtocol = MoviesRouter()
+//        MARK: - NetWork
+        let remoteDataSource: AnyPopularMoviesServiceProtocol = PopularMoviesService()
         
         view.presenter = presenter
         presenter.view = view
@@ -30,10 +33,14 @@ final class MoviesRouter: AnyMoviesRouterProtocol {
         interactor.presenter  = presenter
         interactor.repository = repository
         repository.interactor = interactor
+        repository.remoteDataSource = remoteDataSource
         
         
         return view as! MoviesViewController
     }
     
-    
+    func presentDetailMovie(movie: Movie, navController: UINavigationController?) {
+        let detailMovieController: DetailMovieViewController = DetailMovieRouter.createModule(movie: movie)
+        navController?.pushViewController(detailMovieController, animated: true)
+    }
 }
