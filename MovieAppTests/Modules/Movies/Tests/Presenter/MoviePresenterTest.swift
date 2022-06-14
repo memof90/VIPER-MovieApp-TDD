@@ -55,6 +55,4 @@ class MoviePresenterTest: XCTestCase {
         //        Assert -> Then
         XCTAssertTrue(router.calls.didPresenterDetailMovie)
     }
-
-
 }
