@@ -17,8 +17,6 @@ final class GetMoviesInteractor: AnyGetMoviesInteractorInputProtocol {
     func execute() {
         repository?.getPopularMovies()
     }
-    
-    
 }
 
 
